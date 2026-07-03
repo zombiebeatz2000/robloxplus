@@ -1,11 +1,12 @@
-1. Install dependencies:
+Install dependencies:
    py -m pip install -r requirements.txt
    py -m playwright install chromium
 
-2. Log in once:
+Log in once:
    py main.py --login
+-saves ur cookie to .env
 
-3. Check a user:
+Check a user:
    py main.py username
 
 If the saved Roblox session expires, the browser opens again automatically.

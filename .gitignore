@@ -1,1 +1,6 @@
-s
+.env
+.roblox_plus_browser/
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,22 +1,37 @@
+# Roblox Plus Checker
 
-check whether a user has the ROBLOX PLUS badge,
-for help message me on telegram t.me/perc30
+Check whether a Roblox user has the Roblox Plus badge.
 
+The tool logs into Roblox once through Playwright, stores the session cookie locally, and queries Roblox profile data by username.
 
+## Features
 
+- Checks Roblox Plus status
+- Resolves usernames to user IDs
+- Saves the Roblox session locally
+- Automatically reopens login when the session expires
+- Never prints the `.ROBLOSECURITY` cookie
 
+## Installation
 
+```powershell
+py -m pip install -r requirements.txt
+py -m playwright install chromium
+```
 
-Install dependencies:
-   py -m pip install -r requirements.txt
-   py -m playwright install chromium
+```Login once
+py main.py --login
+```
 
-Log in once:
-   py main.py --login
--saves ur cookie to .env
+py main.py username
+```usage
+py main.py username
+```
 
-Check a user:
-   py main.py username
+Example:
 
-If the saved Roblox session expires, the browser opens again automatically.
-The .ROBLOSECURITY value is stored in .env and is never printed.
+user: @builderman
+userid: 156
+roblox plus: yes
+raw plus field: true
+HTTPS status: 200

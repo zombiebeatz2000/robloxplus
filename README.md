@@ -28,10 +28,10 @@ py main.py username
 py main.py username
 ```
 
-Example:
+## Example:
 
-user: @builderman
-userid: 156
-roblox plus: yes
-raw plus field: true
-HTTPS status: 200
+- user: @builderman
+- userid: 156
+- roblox plus: yes
+ raw plus field: true
+- HTTPS status: 200

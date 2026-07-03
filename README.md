@@ -33,7 +33,7 @@ py main.py username
 - user: @builderman
 - userid: 156
 - roblox plus: yes
- raw plus field: true
+- raw plus field: true
 - HTTPS status: 200
 
 # Support

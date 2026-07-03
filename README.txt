@@ -1,3 +1,12 @@
+
+check whether a user has the ROBLOX PLUS badge,
+for help message me on telegram t.me/perc30
+
+
+
+
+
+
 Install dependencies:
    py -m pip install -r requirements.txt
    py -m playwright install chromium
